@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100&display=swap');
+/* font-family: 'Exo 2', sans-serif;
+    font-family: 'Trebuchet MS', sans-serif;
+*/
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    background-image: url(./img/bg.png);
+}
+.app {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding-top: 36px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(/img/bg.png);
+}
+h1 {
+    font-family: 'Exo 2.0 Thin', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    text-shadow: 0px 1px 1px #000000;
+    color: #FFFFFF;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px
+}
+
+.card-text-footer-title {
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+.card {
+    width: 320px;
+    height: 480px;
+    background: #F2F2F2;
+    /*     background: linear-gradient(135deg, transparent 20px, #F2F2F2 0); */
+    border: 4px solid #1698D9; 
+    border-radius: 15px;  
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.card-text {
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.card-text > p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #666666;
+    margin: 0;
+    display: flex;
+}
+
+.buy {
+    background: none;
+    border: none;
+    color: #1698D9;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 0;
+    margin-top: 16px;
+}
+
+.card-text > h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #000000;
+    margin: 0;
+}
+
+.card-text > h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+    margin: 0;
+}
+
+.cat {
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/cat.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.oval {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    margin: 16px;
+    font-family: 'Trebuchet MS';
+    background: #1698D9;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.oval > h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+.card-footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.selected {
+    border: 4px solid #D91667;
+}
+.selected-oval {
+    background: #D91667;
+}
+
+.disabled {
+    width: 320px;
+    height: 480px;
+    background: #F2F2F2;
+    border-radius: 15px;
+    margin: 0;  
+    border: 4px solid;
+}
